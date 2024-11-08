@@ -5,17 +5,34 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --purple-01: #7A1CAC;
+
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #1A1A1D;
     --foreground: #ededed;
+    --purple: #AD49E1;
+    --purple-01: #7A1CAC;
   }
 }
 
 body {
-  color: var(--foreground);
+  color: #eeeeee;
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.shadow01 {
+  box-shadow: 2px 5px 15px black;
+}
+
+.text-shadow {
+  box-shadow: black 1px 3px 10px;
+}
+
+.shadow01 {
+  box-shadow: 1px 3px 10px black;
 }
